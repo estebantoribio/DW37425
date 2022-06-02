@@ -50,7 +50,7 @@ body {
 /*--- Header ---*/
 header {
     grid-area: header;
-    display: ;
+/*    display: ;*/
 }
 
 /*Nav*/
@@ -380,13 +380,13 @@ footer div a {
     font-size: 20px;
 
 }
-
+/*
 .footer__icon {}
 
 footer div {}
 
 .footer__text {}
-
+*/
 
 @media screen and (min-width: 800px) {
     .footer__icons {
