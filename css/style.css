@@ -64,6 +64,9 @@ header {
     header div {
         display: none;
     }
+    .menu__button{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -72,11 +75,11 @@ header {
         width: 100px;
         height: 100px;
         position: absolute;
-        left: 90%;
-        top: 35%;
-        margin: -75px 0 0 -75px;
+        right: 5vw;
+        top: 35vw;
+        /*margin: -75px 0 0 -75px;
         list-style: none;
-        font-size: 100%;
+        font-size: 100%;*/
     }
 
     .menu__button {
@@ -88,8 +91,8 @@ header {
         width: 100px;
         height: 100px;
         position: absolute;
-        left: 50%;
-        top: 50%;
+     /*   left: 50%;
+        top: 50%;*/
         margin: -75px 0 0 -75px;
         border-radius: 50%;
         background: #9c0f48;
@@ -115,14 +118,14 @@ header {
         width: 30px;
         height: 15px;
         position: absolute;
-        left: 45%;
+        /*left: 45%;
+        top: 55%;*/
         line-height: 5px;
-        top: 55%;
         margin: -50px 0 0 -50px;
         background-color: #d67d3e;
         border: solid 2px black;
         border-radius: 20px 50% 50% 20px;
-        transform: translate(0px, 0px);
+        transform: translate(0x, 0px);
         transition: transform 500ms;
         z-index: 9;
         transition: .5s;
@@ -140,8 +143,8 @@ header {
     .menu__item a {
         color: #f9e4d4;
         position: relative;
-        top: 35%;
-        left: 4%;
+        /*top: 35%;
+        left: 4%;*/
         font-size: 25px;
         text-decoration: none;
     }
